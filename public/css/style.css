@@ -1,0 +1,17 @@
+body {
+  height: 100vh;
+  background: #ffb200;
+}
+
+section {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-left: 12%;
+    padding-right: 12%;
+}
+p{
+  font-style: italic;
+}

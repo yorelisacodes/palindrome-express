@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <section>
+    <h1>Palindrome Checker </h1>
+    <p>Per Oxford; A palindrome is a word or phrase that reads the same backwards as forwards, for example madam or
+      level.</p>
+    <input id="input" type="text" name="" placeholder="Add a word">
+    <button id="clickMe" type="button" name="button">Checker</button>
+    <h2 id="result"></h2>
+
+    <ul>
+      <% for(let i=0; i<userInputs.length; i++) {%>
+        <li class="message">
+          <span>
+            <%= userInputs[i].userInput %>
+          </span>
+        </li>
+      <% } %>
+    </ul>
+    
+  </section>
+
+  
+
+
+
+
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
